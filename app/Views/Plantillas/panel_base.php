@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title><?= $nombre_pagina ;?> | AS GOOD AS BOOK</title>
+        <title><?= $nombre_pagina ;?> | Project Alumnos</title>
         
 
         <!-- Custom fonts for this template-->
@@ -32,9 +32,9 @@
                 <!-- Sidebar - Brand -->
                 <a class="sidebar-brand d-flex align-items-center justify-content-center" href="">
                     <div class="sidebar-brand-icon rotate-n-0">
-                    <i class='fas fa-book-open' style='color:#ffffff'></i>
+                    <i class='#' style='color:#ffffff'></i>
                     </div>
-                    <div class="sidebar-brand-text mx-3">AS GOOD AS BOOK</div>
+                    <div class="sidebar-brand-text mx-3">Project Alumnos</div>
                 </a>
                 <!-- MENU LATERAL -->
                 <?= $menu; ?>
