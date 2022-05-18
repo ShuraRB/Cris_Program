@@ -66,8 +66,8 @@
                                                     'class'=>'form-control form-control-user',
                                                     'id'=>'email',
                                                     'aria-describedby'=>'email',
-                                                    'placeholder'=>'Ingresa tu Email',
-                                                    'name'=>'email'
+                                                    'placeholder'=>'Ingresa tu matricula',
+                                                    'name'=>'matricula'
                                                 );
                                                 echo form_input($INPUT);
                                             ?>
@@ -97,9 +97,7 @@
                                         ?>
                                     <?= form_close();?>    
                                     <hr>
-                                    <a href="<?=route_to('inicio');?>" class="btn btn-google btn-user btn-block">
-                                    <i ></i> Inicio
-                                    </a>
+                                    
                                 </div>
                             </div>
                         </div>
